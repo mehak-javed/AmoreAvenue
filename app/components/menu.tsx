@@ -80,7 +80,7 @@ export default function Menu() {
       name: "Spaghetti Carbonara",
       description: "Creamy sauce with pancetta, egg, and parmesan.",
       price: "$14.99",
-      image: "/dishes/pasta.jpg",
+      image: "https://images.unsplash.com/photo-1600803907087-f56d462fd26b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aXRhbGlhbiUyMHBhc3RhfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900",
       prepTime: "20 min",
       rating: 4.8,
       featured: true
@@ -90,7 +90,7 @@ export default function Menu() {
       name: "Margherita Pizza",
       description: "Fresh mozzarella, tomato sauce, and basil.",
       price: "$12.99",
-      image: "/dishes/pizza.jpg",
+      image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFyZ2hlcml0YSUyMHBpenphfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=900",
       prepTime: "15 min",
       rating: 4.6,
       featured: false
