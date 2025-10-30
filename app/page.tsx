@@ -6,7 +6,8 @@ import FeaturedFood from './_components/Home/FeaturedFood'
 import FoodSlider from './_components/FoodSlider'
 import { motion, scale } from "framer-motion";
 import Navbar from "./_components/Navbar";
-
+import About from './_components/About'
+import Contact from "./_components/Contact";
 export default function HomePage() {
   const primaryColor = "#482008" // Dark brown
   const accentColor = "#d4a574"
@@ -47,6 +48,8 @@ export default function HomePage() {
 
       <FeaturedFood />
       <FoodSlider />
+      <About/>
+      <Contact/>
     </main>
   );
 }

@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <div className='flex flex-col '>
 
-            <div className="fixed backdrop-blur-sm flex top-0 left-0 right-0 z-50 px-5 py-2 items-center justify-between text-white">
+            <div className="fixed backdrop-blur-sm bg-[white] flex top-0 left-0 right-0 z-50 px-5 py-2 items-center justify-between text-white">
                 <Image
                     src="/removedbg.png"
                     alt="logo"
