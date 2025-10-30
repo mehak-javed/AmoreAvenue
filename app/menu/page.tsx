@@ -72,7 +72,7 @@ const contentVariants = {
   }
 }
 
-export default function ChefsPicks() {
+export default function Menu() {
   const dishes = [
     {
       id: 1,

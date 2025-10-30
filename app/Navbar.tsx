@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button';
+import logo from "./../public/removedbg.png"
 
 function Navbar() {
     return (
@@ -8,7 +9,7 @@ function Navbar() {
 
             <div className="fixed backdrop-blur-sm bg-[white] flex top-0 left-0 right-0 z-50 px-5 py-2 items-center justify-between text-white">
                 <Image
-                    src="/removedbg.png"
+                    src={logo}
                     alt="logo"
                     width={85}
                     height={85}

@@ -2,12 +2,14 @@
 
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import FeaturedFood from './_components/Home/FeaturedFood'
-import FoodSlider from './_components/FoodSlider'
+
+import FoodSlider from './FoodSlider'
 import { motion, scale } from "framer-motion";
-import Navbar from "./_components/Navbar";
-import About from './_components/About'
-import Contact from "./_components/Contact";
+import Navbar from "./Navbar";
+import About from './about/About'
+import Contact from "./contact/Contact";
+import Footer from './Footer'
+import Menu from "./menu/page";
 export default function HomePage() {
   const primaryColor = "#482008" // Dark brown
   const accentColor = "#d4a574"
@@ -46,10 +48,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      <FeaturedFood />
+      <Menu />
       <FoodSlider />
       <About/>
       <Contact/>
+      <Footer/>
     </main>
   );
 }
