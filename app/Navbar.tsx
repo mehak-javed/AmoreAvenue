@@ -17,16 +17,17 @@ function Navbar() {
 
 
                 <div className="flex gap-8 text-md">
-                    <a href="#" className=" hover:text-[#d4a574] hover:bg-black px-3 py-2 rounded-md text-[#482008]">Home</a>
-                    <a href="#" className="hover:text-[#d4a574] hover:bg-black px-3 py-2 rounded-md text-[#482008]">Menu</a>
-                    <a href="#" className="hover:text-[#d4a574] hover:bg-black px-3 py-2 rounded-md text-[#482008]">About</a>
-                    <a href="#" className="hover:text-[#d4a574] hover:bg-black px-3 py-2 rounded-md text-[#482008]">Contact</a>
+                    <a href="#home" className=" hover:text-[#d4a574] hover:bg-black px-3 py-2 rounded-md text-[#482008]">Home</a>
+                    <a href="#menu" className="hover:text-[#d4a574] hover:bg-black px-3 py-2 rounded-md text-[#482008]">Menu</a>
+                    <a href="#about" className="hover:text-[#d4a574] hover:bg-black px-3 py-2 rounded-md text-[#482008]">About</a>
+                    <a href="#contact" className="hover:text-[#d4a574] hover:bg-black px-3 py-2 rounded-md text-[#482008]">Contact</a>
                 </div>
 
-
-                <Button size="lg" className="bg-black hover:bg-[#482008]" variant="default">
+<a href="#menu">
+                <Button   size="lg" className="bg-black hover:bg-[#482008]" variant="default">
                     Order Now
                 </Button>
+                </a>
             </div>
         </div>
     );

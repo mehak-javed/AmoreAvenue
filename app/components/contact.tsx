@@ -23,7 +23,7 @@ export default function Contact() {
   const accentColor = "#d4a574"; // Warm beige
 
   return (
-    <section
+    <section id="contact"
       className="flex flex-col items-center justify-center px-6 sm:px-10 lg:px-20 py-16 min-h-screen relative overflow-hidden"
      
     >
@@ -31,7 +31,7 @@ export default function Contact() {
       <div className="absolute inset-0 opacity-20 bg-linear-to-br from-[#d4a574]/30 via-transparent to-[#482008]" />
 
       {/* Title */}
-      <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-10 text-center text-[#482008] drop-shadow-lg">
+      <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-10 text-center text-[#482008] drop-shadow-lg" data-aos="fade-down">
         Get In Touch
       </h2>
 

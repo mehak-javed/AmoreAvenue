@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import amorelogo from "@/public/amorelogo.png"; // adjust the path if needed
+import { Info, Instagram, Mail, Twitter } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -12,14 +13,12 @@ export default function Footer() {
           <Image
             src={amorelogo}
             alt="Amore Avenue Logo"
-            width={150}
-            height={150}
-            className="object-contain"
+            width={120}
+            height={120}
+            className="object-contain rounded-2xl"
           />
-          <p className="text-[#d4a574] font-medium text-lg tracking-wide">
-            Amore Avenue
-          </p>
-          <p className="text-sm text-gray-300 leading-relaxed">
+         
+          <p className="text-sm text-gray-300 leading-relaxed font-bold" data-aos="fade-down">
             Bringing people together through the love of food.  
             Every dish, every flavor — made with passion.
           </p>
@@ -29,10 +28,10 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold text-[#d4a574] mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li><a href="#" className="hover:text-[#d4a574] transition">Home</a></li>
-            <li><a href="#" className="hover:text-[#d4a574] transition">Menu</a></li>
-            <li><a href="#" className="hover:text-[#d4a574] transition">About</a></li>
-            <li><a href="#" className="hover:text-[#d4a574] transition">Contact</a></li>
+            <li><a href="#home" className="hover:text-[#d4a574] transition">Home</a></li>
+            <li><a href="#menu" className="hover:text-[#d4a574] transition">Menu</a></li>
+            <li><a href="#about" className="hover:text-[#d4a574] transition">About</a></li>
+            <li><a href="#contact" className="hover:text-[#d4a574] transition">Contact</a></li>
           </ul>
         </div>
 
@@ -50,9 +49,9 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-semibold text-[#d4a574] mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-[#d4a574] transition"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="hover:text-[#d4a574] transition"><i className="fab fa-instagram"></i></a>
-            <a href="#" className="hover:text-[#d4a574] transition"><i className="fab fa-twitter"></i></a>
+            <a href="#" className="hover:text-[#d4a574] transition text-white"><Instagram/></a>
+            <a href="#" className="hover:text-[#d4a574] transition"><Mail/></a>
+            <a href="#" className="hover:text-[#d4a574] transition"><Twitter/></a>
           </div>
         </div>
       </div>

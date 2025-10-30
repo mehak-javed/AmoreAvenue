@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card'
 import Image from 'next/image'
 import { Star, Clock, ChefHat, Plus } from 'lucide-react'
+import FoodSlider from '../FoodSlider'
 
 const dishVariants = {
   hidden: {
@@ -110,7 +111,8 @@ export default function Menu() {
   const accentColor = "#d4a574" // Complementary warm beige
 
   return (
-    <section className="py-20 px-6 max-w-7xl mx-auto bg-white">
+    <>
+    <section id='menu' className="py-20 px-6 max-w-7xl mx-auto bg-white">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -125,12 +127,12 @@ export default function Menu() {
         >
           Chef's Picks
         </h2>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed" data-aos = "fade-up">
           Handcrafted dishes made with passion and the finest ingredients. Each recipe tells a story of tradition and innovation.
         </p>
       </motion.div>
 
-      <motion.div
+      <motion.div data-aos = "fade-up"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -282,6 +284,7 @@ export default function Menu() {
         viewport={{ once: true }}
         className="text-center mt-16 "
       >
+        <a href="#home">
         <motion.button
           whileHover={{ 
             scale: 1.05,
@@ -305,6 +308,7 @@ export default function Menu() {
             →
           </motion.div>
         </motion.button>
+        </a>
       </motion.div>
 
       {/* Decorative Elements */}
@@ -321,5 +325,7 @@ export default function Menu() {
       </div>
      
     </section>
+    <FoodSlider/>
+    </>
   )
 }

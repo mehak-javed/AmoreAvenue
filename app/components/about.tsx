@@ -4,9 +4,9 @@ import owner from './../../public/own.jpg'
 
 function About() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-10 md:py-20 gap-8">
+    <div id= "about" className="grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl mx-auto px-4 md:px-8 lg:px-16 py-10 md:py-20 gap-8">
       {/* Text Section */}
-      <div className="space-y-6">
+      <div className="space-y-6" data-aos="fade-right">
         <h2 className="text-lg text-[#482008] font-bold">CEO Message</h2>
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl text-[#482008] font-bold">
@@ -30,13 +30,13 @@ function About() {
         </p>
 
         <div>
-          <p className="text-lg text-[#482008] font-bold">Fracessco Longo</p>
+          <p className="text-lg text-[#482008] font-bold">Maria Xibli Longo</p>
           <p className="text-md text-[#d4a574] font-light">CEO, Amore Avenue</p>
         </div>
       </div>
 
       {/* Image Section */}
-      <div className="flex justify-center">
+      <div className="flex justify-center" data-aos="fade-left">
         <div className="w-full max-w-sm sm:max-w-md lg:max-w-lg">
           <Image
             src={owner}
