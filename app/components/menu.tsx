@@ -100,7 +100,7 @@ export default function Menu() {
       name: "Tiramisu",
       description: "Espresso-soaked ladyfingers with mascarpone cream.",
       price: "$8.99",
-      image:"/dishes/tiramis.avif",
+      image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800",
       prepTime: "10 min",
       rating: 4.9,
       featured: true
